@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    
+}
+
+.container div{
+    margin: 0.5rem;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
